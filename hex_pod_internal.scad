@@ -81,28 +81,28 @@ union(){
     }
   }
 
-  translate([0, 24, 0]){
+  translate([0, 22, 0]){
     rotate([90, 0, 0]){
       difference(){
-        cylinder(h=5, r=4.8, center=true);
+        cylinder(h=2.5, r=4.8, center=true);
         cylinder(h=11, r=4, center=true);
       }
     }
   }
 
-  translate([0, 24, 15]){
+  translate([0, 22, 15]){
     rotate([90, 0, 0]){
       difference(){
-        cylinder(h=5, r=4.8, center=true);
+        cylinder(h=2.5, r=4.8, center=true);
         cylinder(h=11, r=4, center=true);
       }
     }
   }
 
-  translate([0, 24, -15]){
+  translate([0, 22, -15]){
     rotate([90, 0, 0]){
       difference(){
-        cylinder(h=5, r=4.8, center=true);
+        cylinder(h=2.5, r=4.8, center=true);
         cylinder(h=11, r=4, center=true);
       }
     }
