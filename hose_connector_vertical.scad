@@ -21,10 +21,10 @@ union(){
   }
   difference(){
     translate([0, 0, 8]){
-      cylinder(h=10, r=3, center=true, $fn=30);
+      cylinder(h=8, r=3, center=true, $fn=30);
     }
     translate([0, 0, 8]){
-      cylinder(h=11, r=2, center=true, $fn=30);
+      cylinder(h=9, r=2, center=true, $fn=30);
     }
     rotate([0, 90, 0]){
       cylinder(h=38, r=4, center=true, $fn=30);
