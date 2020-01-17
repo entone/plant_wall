@@ -1,0 +1,4 @@
+%{
+  "file_system": {:hex, :file_system, "0.2.7", "e6f7f155970975789f26e77b8b8d8ab084c59844d8ecfaf58cbda31c494d14aa", [:mix], [], "hexpm"},
+  "open_scad": {:hex, :open_scad, "0.5.2", "c687109eeb77ec1436552254a29c371ab42b6a9683fd8924fa5af0e14e3d8385", [:mix], [{:file_system, "~> 0.2.7", [hex: :file_system, repo: "hexpm", optional: false]}], "hexpm"},
+}
